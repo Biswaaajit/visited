@@ -1,0 +1,42 @@
+.info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.cover {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 28px;
+  background-color: rgba(240, 248, 255, 0.055);
+  width: fit-content;
+  padding: 5% 30% 5% 2%;
+  border-radius: 10px;
+  margin: 0px auto;
+}
+.para {
+  color: rgb(163, 160, 160);
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+.head {
+  font-size: 28px;
+}
+.cover a {
+  font-size: 26px;
+  color: rgb(38, 162, 230);
+  font-weight: 600;
+  text-decoration: underline;
+}
+.cover button {
+  align-self: flex-start;
+  padding: 5px 10px;
+  font-size: 20px;
+  background-color: inherit;
+  color: rgb(176, 162, 162);
+  border: solid 4px rgb(176, 162, 162);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cover button span {
+  font-weight: 700;
+}

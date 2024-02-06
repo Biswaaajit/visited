@@ -1,0 +1,59 @@
+.cover {
+  background-color: rgba(0, 0, 0, 0.913);
+  width: 40%;
+  min-height: 1000px;
+  max-height: fit-content;
+  color: white;
+  padding-bottom: 50px;
+}
+.logo img {
+  width: 7rem;
+}
+.logo p {
+  font-family: "Kanit", cursive;
+  font-size: 45px;
+  color: rgb(15, 103, 143);
+  margin-left: 15px;
+}
+.logo span {
+  font-family: "Playfair", cursive;
+}
+.logo a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 10px;
+  font-size: 20px;
+  color: rgba(128, 128, 128, 0.767);
+  width: 40%;
+}
+.footer p {
+  margin: 0px auto;
+  width: fit-content;
+  font-weight: 600;
+}
+.tab a {
+  color: white;
+  font-size: 24px;
+  padding: 11px 21px;
+  text-align: center;
+  width: 100px;
+  position: relative;
+}
+.tab {
+  padding: 10px 0px;
+  border: solid 1px rgba(255, 255, 255, 0.194);
+  margin: 60px auto;
+  border-radius: 10px;
+  width: fit-content;
+}
+.tab :global(.active) {
+  background-color: rgba(255, 255, 255, 0.377);
+  border-radius: 10px;
+}

@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  text-decoration: none;
+}
+input {
+  border: none;
+  border-radius: 5px;
+}
+input:focus {
+  border: solid 4px rgb(12, 88, 154);
+}
+input:focus-visible {
+  outline: none;
+}

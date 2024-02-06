@@ -1,0 +1,27 @@
+@import "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+.cover {
+  flex-grow: 1;
+  background-color: aqua;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.map {
+  height: 100%;
+}
+.position {
+  position: fixed;
+  z-index: 1000;
+  bottom: 50px;
+  padding: 10px 25px;
+  font-size: 22px;
+  border: none;
+  background-color: rgb(13, 105, 105);
+  border-radius: 5px;
+  color: white;
+  align-self: center;
+  opacity: 50%;
+}
+.position:hover {
+  opacity: 100%;
+}

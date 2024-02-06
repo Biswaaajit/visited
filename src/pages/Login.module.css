@@ -1,0 +1,32 @@
+.cover {
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 1000px;
+  color: white;
+  padding-bottom: 200px;
+  align-items: center;
+}
+.form {
+  width: 300px;
+  margin: 150px auto;
+  background-color: rgba(255, 255, 255, 0.091);
+  font-size: 22px;
+  padding: 5% 10%;
+  border-radius: 8px;
+}
+.form label {
+  display: block;
+}
+.form input {
+  margin: 10px 0px 40px;
+  font-size: 20px;
+  padding: 4px;
+  width: 320px;
+}
+.form button {
+  background-color: inherit;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: solid 2px white;
+  border-radius: 15px;
+}

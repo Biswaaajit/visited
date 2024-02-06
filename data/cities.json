@@ -1,0 +1,40 @@
+{
+  "cities": [
+    {
+      "id": "e377",
+      "cityName": "Kolkata",
+      "emoji": "in",
+      "date": "2023-09-07T17:28:44.000Z",
+      "country": "India",
+      "notes": "",
+      "position": {
+        "lat": "22.571219105273084",
+        "lng": "88.36462018212703"
+      }
+    },
+    {
+      "id": "e1e0",
+      "cityName": "Bhubaneswar",
+      "emoji": "in",
+      "date": "2024-01-24T05:56:01.848Z",
+      "country": "India",
+      "notes": "Religious Place",
+      "position": {
+        "lat": "20.236428815882984",
+        "lng": "85.81502939890208"
+      }
+    },
+    {
+      "id": "a024",
+      "cityName": "Sakurai",
+      "emoji": "jp",
+      "date": "2024-01-24T06:15:17.620Z",
+      "country": "Japan",
+      "notes": "good place for  vibing with strangers",
+      "position": {
+        "lat": "34.51560953848204",
+        "lng": "135.82758111630335"
+      }
+    }
+  ]
+}

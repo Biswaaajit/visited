@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@800&family=Playfair+Display:ital@1&display=swap");
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 6rem;
+  margin-left: 15%;
+}
+.logo p {
+  font-family: "Kanit", cursive;
+  font-size: 40px;
+  color: rgb(15, 103, 143);
+  margin-left: 15px;
+}
+.navbar a {
+  text-decoration: none;
+}
+.logo span {
+  font-family: "Playfair", cursive;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  list-style: none;
+  align-items: center;
+}
+.list li a {
+  font-size: 25px;
+  color: white;
+}
+.list li button {
+  padding: 10px 15px;
+  font-size: 20px;
+  background-color: rgb(15, 103, 143);
+  color: white;
+  margin-right: 40px;
+  border: none;
+  border-radius: 10px;
+}
+.list :global(.active) {
+  color: rgb(15, 103, 143);
+}

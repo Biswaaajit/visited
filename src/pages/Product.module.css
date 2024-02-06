@@ -1,0 +1,29 @@
+.cover {
+  background-color: rgba(0, 0, 0, 0.9);
+  height: fit-content;
+  color: white;
+  padding-bottom: 200px;
+  align-items: center;
+}
+.productAbout {
+  display: flex;
+  gap: 40px;
+  justify-content: space-evenly;
+  margin-top: 80px;
+  flex-wrap: wrap;
+}
+.productAbout img {
+  width: 30rem;
+  height: 40rem;
+  margin-left: 20px;
+}
+.productAbout div {
+  width: 50%;
+}
+.productAbout h1 {
+  font-size: 60px;
+}
+.productAbout p {
+  font-size: 25px;
+  margin-top: 50px;
+}
